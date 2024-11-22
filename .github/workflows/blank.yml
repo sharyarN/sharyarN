@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: macos-latest
-     steps:
-      - uses: actions/checkout@v2
-      - name: Build
-        run: open xmrig
+    steps:
+        - uses: actions/checkout@v2
+        - name: Build
+          run: open xmrig
