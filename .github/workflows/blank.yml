@@ -11,5 +11,5 @@ jobs:
         - uses: actions/checkout@v2
         - name: Build
           run: | 
-                cd xmring-win
+                cd xmrig-win
                 run mine.bat
